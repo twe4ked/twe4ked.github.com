@@ -2,6 +2,6 @@
 
 ``` sh
 bundle install
-jekyll serve --watch
+bundle exec jekyll serve --watch
 open http://localhost:4000
 ```
