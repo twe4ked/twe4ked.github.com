@@ -42,7 +42,7 @@ sup
   position: relative
 
 blockquote
-  border-left: 1px solid #ccc
+  border-left: 2px solid #ccc
   padding-left: 20px
   cite
     display: block
@@ -161,8 +161,14 @@ article.post
     line-height: 160%
     code
       font-size: 12px
-  ul li
+  ul li, ol li
     margin-bottom: 4px
+  ol
+    margin-bottom: 20px
+    list-style: decimal
+  ul, ol
+    ul, ol
+      margin-bottom: 0px
 
 .filename
   background: #eee
@@ -207,7 +213,7 @@ article h1
 code, pre
   font-family: Monaco, monospace
 
-p code
+p code, ol code, ul code
   background: #eee
   padding: 1px 5px
   font-size: 16px
